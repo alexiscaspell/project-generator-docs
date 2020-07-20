@@ -33,18 +33,15 @@ En primera instancia es necesario tener las dependencias instaladas, estas se in
 ```
 pip install -r requirements.txt
 ```
-
+Para levantar el proyecto solo es necesario ejecutar:
+```
+python project_generator.py unNombreDeProyecto unPath
+```
 Tambien se puede correr con docker con el siguiente comando: 
 ```
 docker pull alexiscaspell/project-generator-bash
 docker run -it -v `pwd`:`pwd` alexiscaspell/project-generator-bash $(pwd)
 ```
-
-Para levantar el proyecto solo es necesario ejecutar:
-```
-python negro_dame.py unNombreDeProyecto unPath
-```
-
 ## Parametros
 
 - Como primer parametro se le pasa el nombre del proyecto (obligatorio).
