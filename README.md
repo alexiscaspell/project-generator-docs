@@ -40,7 +40,7 @@ python project_generator.py unNombreDeProyecto unPath
 Tambien se puede correr con docker con el siguiente comando: 
 ```
 docker pull alexiscaspell/project-generator-bash
-docker run -it -v `pwd`:`pwd` alexiscaspell/project-generator-bash $(pwd)
+docker run -it -v `pwd`:`pwd` alexiscaspell/project-generator-bash nuevoProyecto $(pwd)
 ```
 ## Parametros
 
